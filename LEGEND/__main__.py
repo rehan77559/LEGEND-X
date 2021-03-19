@@ -65,7 +65,7 @@ from LEGEND.modules.helper_funcs.misc import paginate_modules
 from LEGEND.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hello there, I'm [GRAND OFFICIAL](https://telegra.ph/file/4a14aa91d2276be702ae7.jpg)
+Hello there, I'm [WHITE DEVIL ](https://telegra.ph/file/0ba84306e53f45e5d1157.jpg)
 
 I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managing your group
 
@@ -81,15 +81,15 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="💫 Add LEGEND BOT to your group 💫",
-            url="t.me/grand50_bot?startgroup=true",
+            text="💫ADD WHITE DEVIL BOT to your group 💫",
+            url="t.me/WHITE_DEVIL_OP_ROBOT?startgroup=true",
         ),
     ],
 ]
 
 
 HELP_STRINGS = f"""
-*Main Commands :* [GRAND OFFICIAL](https://telegra.ph/file/4a14aa91d2276be702ae7.jpg)
+*Main Commands :* [WHITE DEVIL ](https://telegra.ph/file/0ba84306e53f45e5d1157.jpg)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
@@ -104,7 +104,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [N](t.me/teamishere,[LEGEND BOT](t.me/teamishere),"""
+Support them  [N](t.me/WHITE_DEVIL_Op,[WHITE DEVIL ](t.me/WHITE_DEVIL_Op),"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -360,10 +360,10 @@ def LEGEND_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"*😍 Hi again!  The name's {dispatcher.bot.first_name} 😍 \n\nAs  You I'm a next generational group management bot developed by @LEGENDX22.* "
-            f"\n\n 🔥 Join [GRAND OFFICIAL](https://t.me/teamishere) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
+            text=f"*😍 Hi again!  The name's {dispatcher.bot.first_name} 😍 \n\nAs  You I'm a next generational group management bot developed by @WHITE_DEVIL_Op.* "
+            f"\n\n 🔥 Join [WHITE DEVIL ](https://t.me/WHITE_DEVIL_Op) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
-            f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://telegra.ph/file/11de6b6641f5f5d5b344d.jpg)"
+            f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://telegra.ph/file/0ba84306e53f45e5d1157.jpg)"
             f"\n\n👇 You Can Know More About Me By Clicking The Below Buttons 👇",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -419,8 +419,8 @@ def LEGEND_about_callback(update, context):
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
             text=f"*{dispatcher.bot.first_name} Is the redisigned version of Daisy and Naruto for the best performance.*"
-            f"\n\nBased on [LEGEND X](https://github.com/LEGENDXOP)."
-            f"\n\n{dispatcher.bot.first_name}'s source code was rewritten by @LEGENDX22 and @PROBOYX"
+            f"\n\nBased on [WHITE DEVIL ](https://github.com/WHITE DEVIL)."
+            f"\n\n{dispatcher.bot.first_name}'s source code was rewritten by @WHITE_DEVIL_Op"
             f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @{SUPPORT_CHAT}.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -859,7 +859,7 @@ def main():
         updater.start_polling(timeout=15, read_latency=4, clean=True)
 
     if LEGENDX == 1100231654:
-         print ("LEGENDX ADDED SIR ")
+         print ("WHITE DEVIL ADDED SIR ")
     else:
          os.execl(sys.executable, sys.executable, *sys.argv)
          telethn.disconnect()
